@@ -1,0 +1,26 @@
+// steps to craete backend
+//1.Genrate package.json
+//npm init -y
+//2.create http server
+//a.Install & import "express" module
+//nmp  instal express
+
+
+/ crate products API in the same file
+Description of products obj:
+{
+    productId,
+    name,
+    price,
+    brand
+}
+
+Product api:
+GET HTTP://127.0.0.1:3000/Products
+GET HTTP://127.0.0.1:3000/Products/<id>
+GET HTTP://127.0.0.1:3000/Products/<rand>
+POST HTTP://127.0.0.1:3000/Products
+PUT HTTP://127.0.0.1:3000/Products
+PUT HTTP://127.0.0.1:3000/Products/<id>
+DELETE HTTP://127.0.0.1:3000/Products/<id>
+  
